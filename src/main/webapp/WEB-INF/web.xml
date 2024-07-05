@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.project.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>HomeServlet</display-name>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>com.project.HomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<description></description>
+    <display-name>SavePinnedCitiesServlet</display-name>
+    <servlet-name>SavePinnedCitiesServlet</servlet-name>
+    <servlet-class>com.project.SavePinnedCitiesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SavePinnedCitiesServlet</servlet-name>
+    <url-pattern>/savePinnedCities</url-pattern>
+  </servlet-mapping>
+<!--   <servlet>
+    <description></description>
+    <display-name>GetPinnedCitiesServlet</display-name>
+    <servlet-name>GetPinnedCitiesServlet</servlet-name>
+    <servlet-class>com.project.GetPinnedCitiesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetPinnedCitiesServlet</servlet-name>
+    <url-pattern>/GetPinnedCitiesServlet</url-pattern>
+  </servlet-mapping> -->
+</web-app>
